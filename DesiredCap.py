@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 def capabilities():
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
-    desired_caps['deviceName'] = 'NexusSAPI28'
+    desired_caps['deviceName'] = 'Nexus S API 26'
     desired_caps['appPackage'] = 'com.google.android.youtube'
     desired_caps['appActivity'] = 'com.google.android.apps.youtube.app.application.Shell$HomeActivity'
     desired_caps['noReset'] = 'true'
